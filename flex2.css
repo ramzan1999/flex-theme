@@ -1,0 +1,1087 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    overflow-x: hidden;
+    
+}
+
+
+.main1{
+    width: 100vw;
+    height:auto;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+
+}
+.logodiv{
+    width: 20%;
+    height:auto;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-left: 20px;
+}
+.logo{
+    width: 100%;
+    height: 45px;
+}
+.inputdiv{
+    width: 50%;
+    height: 40px;
+    border: 1px solid  gray;
+    margin-top: 20px;
+    display: flex;
+}
+.input1{
+    width: 90%;
+    height: 100%;
+    border: none;
+    padding-left: 10px;
+    box-sizing: border-box;
+    /* margin-top: -10px; */
+}
+.iconsdiv{
+    width: 15%;
+    height: 70px;
+    margin-right: 100px;
+
+
+}
+.nav{
+    width: 50%;
+    height: 50px;
+    margin-top: 20px;
+    margin-right: 20px;
+    /* display: none; */
+
+}
+.nav>ul{
+    list-style: none;
+
+}
+.radio1{
+    visibility: hidden;
+}
+.nav>ul>li{
+    float: left;
+    height: 100%;
+    width: 19%;
+    padding: 15px;
+    box-sizing: border-box;
+    color: rgb(160,47,106);
+}
+.nav>ul>li:hover{
+    cursor: pointer;
+    color:gray ;
+}
+.search1{
+    font-size: 30px;
+    color: white;
+    background-color:rgb(160,47,106);
+    padding: 5px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    width: 55px;
+    margin-left: 8.5px;
+    width: 10%;
+}
+.bag1{
+    color: gray;
+    font-size: 25px;
+    margin-left:10px ;
+    margin-top: 20px;
+    transition-duration: 1s;
+    color: rgb(160,47,106);
+
+
+}
+.bag1:hover{
+    color: gray;
+}
+/* ---------------sc2-------------- */
+
+.sc2{
+    width: 100vw;
+    height: auto;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+.sc21{
+    width: 200%;
+    height: 500px;
+    display: flex;
+    transition-duration: 2s;
+
+
+}
+.sc211{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    padding: 1px;
+    background-size: 100% 100%;
+    background-image: url(emporium__slide-02_1400x.webp);
+}
+.sc2111{
+    width: auto;
+    height:auto;
+    margin-left: 47%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    margin-top: 15%;
+    text-align: center;
+    background-color: rgba(249, 249, 249, 0.623);
+}
+.sc2111>h1{
+    color:rgb(160,47,106) ;
+    margin-top: 20px;
+
+}
+.sc2111>p{
+    letter-spacing: 2px;
+    line-height: 2;
+    margin-top: 20px;
+    font-size: 17px;
+}
+.sc2111>button{
+    width: 180px;
+    height: 40px;
+    letter-spacing: 2px;
+    background: none;
+    border: 1px solid black ;
+    transition-duration: 1s;
+    transition-property: color;
+    margin-top: 20px;
+}
+.sc2111>button:hover{
+    background-color: black;
+    color: white;
+}
+
+.sc212{
+    width: 50%;
+    height: 100%;
+    background-size: 100% 100%;
+
+    background-image: url(emporium__slide-01_1400x.webp);
+}
+.sc2121{
+    width: 50%;
+    height:auto;
+    margin-left: 10%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    margin-top: 15%;
+    text-align: center;
+    background-color: rgba(249, 249, 249, 0.623);
+
+}
+.sc2121>h1{
+    color:rgb(160,47,106) ;
+    margin-top: 20px;
+
+}
+.sc2121>p{
+    letter-spacing: 2px;
+    line-height: 2;
+    margin-top: 20px;
+    font-size: 17px;
+}
+.sc2121>button{
+    width: 180px;
+    height: 40px;
+    letter-spacing: 2px;
+    background: none;
+    border: 1px solid black ;
+    transition-duration: 1s;
+    transition-property: color;
+    margin-top: 20px;
+}
+.sc2121>button:hover{
+    background-color: black;
+    color: white;
+}
+
+.input2{
+    display: none;
+}
+.input3{
+    display: none;
+}
+.label2{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(249, 249, 249, 0.623) ;
+
+}
+.label2>i{
+    top: 500px;
+    position: absolute;
+    z-index: 2;
+    font-size: 35px;
+    background-color: rgba(249, 249, 249, 0.623) ;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.label3{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(249, 249, 249, 0.623) ;
+
+}
+.label3>i{
+    top: 500px;
+    right: 0;
+    position: absolute;
+    z-index: 2;
+    font-size: 35px;
+    background-color: rgba(249, 249, 249, 0.623) ;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.input3:checked~.sc21{
+    margin-left: -100%;
+}
+/* -------------------sc3------------------ */
+
+.sc3{
+    width: 100vw;
+    height: auto;
+    /* border: 1px solid black; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+}
+.sc31{
+    width: 80%;
+    height: 60vh;
+    margin-left: 10%;
+    overflow: hidden;
+    /* border: 1px solid red; */
+    
+}
+
+.sc32{
+    width: 130%;
+    height: 90%;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    transition-duration: 2s;
+    /* border: 1px solid; */
+}
+.sc321{
+    width: 20%;
+    height: 90%;
+    /* border: 1px solid green; */
+    margin-top: 20px;
+    margin-left: 75px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.205),rgba(0, 0, 0, 0.205)), url(emporium__fp-01_1600x.jpg);
+    background-size:100% 100%;
+    transition-duration: 1.5s;
+}
+.sc3211{
+    width: 90%;
+    height: 90%;
+    margin-top: 4.5%;
+    margin-left: 4.5%;
+    border: 1px solid white;
+    text-align: center;
+    color: white;
+}
+.calendar{
+    font-size: 50px;
+    color: white;
+    margin-top: 15%;
+    /* margin-left: 42%; */
+}
+.sc3211>h2{
+    margin-top: 20px;
+}
+.sc3211>p{
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+.input4{
+    display: none;
+}
+.input5{
+    display: none;
+}
+.label4{
+    width: 50px;
+    height: 30px;
+}
+.label5{
+    margin-left: 20px;
+}
+.input4:checked~.sc32{
+    margin-left: 0;
+}
+.input4:checked~.sc32{
+    margin-left: -28%;
+}
+.margin{
+    margin-left: 0;
+}
+
+.sc3212{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.205),rgba(0, 0, 0, 0.205)), url(emporium__fp-02_1600x.jpg);
+}
+.sc3213{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.205),rgba(0, 0, 0, 0.205)), url(emporium__fp-03_1600x.jpg);
+}
+.sc3214{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.205),rgba(0, 0, 0, 0.205)), url(emporium__fp-04_1600x.jpg);
+}
+.sc321:hover{
+    background-size: 120% 120%;
+}
+/* ----------------sc4--------------- */
+
+.sc4t{
+    width: 100vw;
+    height: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    align-content: center;
+    padding-top:15px;
+    padding-bottom: 15px;
+    flex-direction: column;
+    align-items: center;
+}
+.sc4t1{
+    width: 6%;
+    height: 65px; 
+    letter-spacing: 2px;
+}
+.sc4t1>h1:hover{
+    color: rgb(160,47,106) ;
+    cursor: pointer;
+}
+.sc5t{
+    width: 100vw;
+    height: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    align-content: center;
+    padding-top:15px;
+    padding-bottom: 15px;
+    flex-direction: column;
+    align-items: center;
+}
+.sc5t1>h1{
+    margin-left: 100px;
+    
+}
+.sc4t3{
+    margin-left: 30px;
+}
+
+.sc5{
+    overflow: hidden;
+}
+.sc4t2{
+    width: 6%;
+    height: auto;
+    border: 1px solid rgb(160,47,106);
+    /* margin-top: 20px; */
+}
+.sc4{
+    width: 100vw;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* border: 1px solid red; */
+    overflow-x: hidden;
+}
+
+.sc41{
+    width: 200%;
+    height: 250px;
+    /* border: 1px solid brown; */
+    display: flex;
+    justify-content: space-between;
+    animation: sc4 20s linear infinite;
+}
+.sc51{
+    animation-delay: 5s;
+}
+@keyframes sc4{
+    0%{
+        margin-left: 0%;
+    }
+    10%{
+        margin-left: 0%;
+    }
+    15%{
+        margin-left: -17%;
+    }
+    25%{
+        margin-left: -17%;
+    }
+    30%{
+        margin-left: -35%;
+    }
+    35%{
+        margin-left: -35%;
+    }
+    45%{
+        margin-left: -50%;
+    }
+    48%{
+        margin-left: -50%;
+    }
+    55%{
+        margin-left: -65%;
+    }
+    65%{
+        margin-left: -65%;
+    }
+    70%{
+        margin-left: -80%;
+    }
+    80%{
+        margin-left: -80%;
+    }
+    90%{
+        margin-left: -100%;
+    }
+    95%{
+        margin-left: -100%;
+    }
+    99.50%{
+        margin-left: -100%;
+    }
+    100%{
+        margin-left: 0%;
+    }
+
+}
+.sc411{
+    width: 8%;
+    height: 100%;
+    /* border: 1px solid; */
+    background-image: url(uashmama-washable-paper-bag-brown-wb_1600x.jpg);
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+.sc411:hover .sc4111{
+    transform: scale(1);
+    visibility: visible;
+    transition-duration: 1s;
+
+}
+.sc4111{
+    width: 100%;
+    height: 100%;
+    transform: scale(0);
+    text-align: center;
+    transition-duration: 1s;
+
+    color: white;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    background-image:linear-gradient(rgba(177, 175, 175, 0.473),rgba(177, 175, 175, 0.473)), url(uashmama-washable-paper-bag-brown-4_1600x.jpg);
+    background-size: 100% 100%;
+    /* margin-top: -115%; */
+    padding: 1px;
+    box-sizing: border-box;
+    
+}
+.sc4111>p{
+    margin-top: 20px;
+}
+.sc4111>button{
+    width: 120px;
+    height: 40px;
+    margin-top: 30px;
+    /* background: none; */
+    border: none;
+    font-size: 17px;
+}
+.sc4111>button:hover{
+    color:rgb(160,47,106) ;
+    border: 1px solid black;
+}
+
+.sc512{
+    background-image: url(african-woven-baskets-fair-trade-ethical-home-storage-2_1600x.jpg);
+}
+.sc512>.sc4111{
+    background-image:linear-gradient(rgba(177, 175, 175, 0.473),rgba(177, 175, 175, 0.473)), url(african-woven-baskets-fair-trade-ethical-home-storage-1_1600x.jpg);
+}
+.sc513{
+    background-image: url(agros-organic-herbal-tea-blend-ecofriendly-packaging_1600x.jpg);
+}
+.sc513>.sc4111{
+    background-image:linear-gradient(rgba(177, 175, 175, 0.473),rgba(177, 175, 175, 0.473)), url(rhoeco-organic-herbal-tea-blends-2_1600x.jpg);
+}
+.sc514{
+    background-image: url(basil-herbs-wb-savon-stories-organic-palm-oil-free-vegan-soaps_1600x.jpg);
+}
+.sc514>.sc4111{
+    background-image:linear-gradient(rgba(177, 175, 175, 0.473),rgba(177, 175, 175, 0.473)), url(basil-herbs-1-savon-stories-organic-palm-oil-free-vegan-soaps_1600x.jpg);
+}
+.sc515{
+    background-image: url(uashmama-washable-paper-bag-dark-grey-wb_1600x.jpg);
+}
+.sc515>.sc4111{
+    background-image:linear-gradient(rgba(177, 175, 175, 0.473),rgba(177, 175, 175, 0.473)), url(uashmama-washable-paper-bag-dark-grey-3_1600x.jpg);
+}
+.sc516{
+    background-image: url(uashmama-paper-bags-rose-gold-eco-home-storage-large_1600x.jpg);
+}
+.sc516>.sc4111{
+    background-image:linear-gradient(rgba(177, 175, 175, 0.473),rgba(177, 175, 175, 0.473)), url(uashmama-metallic-washable-paper-bag-rose-gold-7_1600x.jpg);
+}
+.sc517{
+    background-image: url(joseph-rodgers-rosewood-pocket-knives-made-in-the-uk-1_1600x.jpg);
+}
+.sc517>.sc4111{
+    background-image:linear-gradient(rgba(177, 175, 175, 0.473),rgba(177, 175, 175, 0.473)), url(joseph-rodgers-rosewood-pocket-knives-made-in-the-uk-6-1_1600x.jpg);
+}
+.sc518{
+    background-image: url(liha-idan-oil-natural-cold-pressed-coconut-oil-uk-made_1600x.jpg);
+}
+.sc518>.sc4111{
+    background-image:linear-gradient(rgba(177, 175, 175, 0.473),rgba(177, 175, 175, 0.473)), url(TFK-Liha-beauty-body-oil-5_83da52c0-3695-4d25-9d6a-a82d73a4b598_1600x.jpg);
+}
+.sc519{
+    background-image: url(Liha-Idan-Oil-cold-pressed-coconut-oil_grande_f6444e63-ac5f-4329-963c-7512c2dd0e0f_1600x.jpg);
+}
+.sc519>.sc4111{
+    background-image:linear-gradient(rgba(177, 175, 175, 0.473),rgba(177, 175, 175, 0.473)), url(Liha-Idan-Oil-cold-pressed-coconut-oil_1600x.jpg);
+}
+.sc5110{
+    background-image: url(british-made-recycled-wool-throw-made-in-wales_1600x.jpg);
+}
+.sc5110>.sc4111{
+    background-image:linear-gradient(rgba(177, 175, 175, 0.473),rgba(177, 175, 175, 0.473)), url(british-made-recycled-wool-throw-made-in-wales-2_1600x.jpg);
+}
+.sc5112{
+    background-image: url(ume-traditional-ajanta-natural-incense-made-by-hand_1600x.jpg);
+}
+.sc5112>.sc4111{
+    background-image:linear-gradient(rgba(177, 175, 175, 0.473),rgba(177, 175, 175, 0.473)), url(stoneware-incense-dish-ceramics-handmade-in-the-uk-2_089127df-1c2d-40fd-8a28-0a1fbdeb8bb8_1600x.jpg);
+}
+.sc5113{
+    background-image: url(ume-traditional-paomashan-natural-incense-made-by-hand_1600x.jpg);
+}
+.sc5113>.sc4111{
+    background-image:linear-gradient(rgba(177, 175, 175, 0.473),rgba(177, 175, 175, 0.473)), url(stoneware-incense-dish-ceramics-handmade-in-the-uk_89d18156-5834-4e2c-ab8d-b37842ccf06c_1600x.jpg);
+}
+/* --------------sc5------------- */
+.sc412{
+    background-image: url(hand-woven-jute-macrame-fair-trade-market-tote-bag_1600x.jpg);
+}
+.sc412>.sc4111{
+    background-image:linear-gradient(rgba(177, 175, 175, 0.473),rgba(177, 175, 175, 0.473)), url(hand-woven-jute-market-bag-styled-2_47bc88b6-016a-4265-912b-78650b5eb55b_1600x.jpg);
+}
+.sc413{
+    background-image: url(hand-woven-jute-market-bag-yellow_41a26770-6cd9-477e-aed1-715eeed35bda_1600x.jpg);
+}
+.sc413>.sc4111{
+    background-image:linear-gradient(rgba(177, 175, 175, 0.473),rgba(177, 175, 175, 0.473)), url(ochre-hand-woven-jute-macrame-fair-trade-market-tote-bags-5_1600x.jpg);
+}
+.sc414{
+    background-image: url(pump-street-bakery-sourdough-and-sea-salt-chocolate-1_1600x.jpg);
+}
+.sc414>.sc4111{
+    background-image:linear-gradient(rgba(177, 175, 175, 0.473),rgba(177, 175, 175, 0.473)), url(pump-street-bakery-artisan-chocolate_1f4af139-4356-4533-8fdd-8cf45485d35d_1600x.jpg);
+}
+.sc415{
+    background-image: url(fat-and-the-moon-natural-lavender-dry-shampoo_1600x.jpg);
+}
+.sc415>.sc4111{
+    background-image:linear-gradient(rgba(177, 175, 175, 0.473),rgba(177, 175, 175, 0.473)), url(fat-and-the-moon-natural-vegan-dry-hair-shampoo-lavendar_1600x.jpg);
+}
+.sc416{
+    background-image: url(joseph-rodgers-barlow-pocket-knife-rosewood-lambsfoot_79a2030a-0ded-4c1e-a09f-c4a14cc82432_1600x.jpg);
+}
+.sc416>.sc4111{
+    background-image:linear-gradient(rgba(177, 175, 175, 0.473),rgba(177, 175, 175, 0.473)), url(joseph-rodgers-barlow-pocket-knife-rosewood-lambsfoot-1_1600x.jpg);
+}
+.sc417{
+    background-image: url(joseph-rodgers-rosewood-pocket-knives-made-in-the-uk-1_1600x.jpg);
+}
+.sc417>.sc4111{
+    background-image:linear-gradient(rgba(177, 175, 175, 0.473),rgba(177, 175, 175, 0.473)), url(joseph-rodgers-rosewood-pocket-knives-made-in-the-uk-6-1_1600x.jpg);
+}
+.sc418{
+    background-image: url(liha-idan-oil-natural-cold-pressed-coconut-oil-uk-made_1600x.jpg);
+}
+.sc418>.sc4111{
+    background-image:linear-gradient(rgba(177, 175, 175, 0.473),rgba(177, 175, 175, 0.473)), url(TFK-Liha-beauty-body-oil-5_83da52c0-3695-4d25-9d6a-a82d73a4b598_1600x.jpg);
+}
+.sc419{
+    background-image: url(Liha-Idan-Oil-cold-pressed-coconut-oil_grande_f6444e63-ac5f-4329-963c-7512c2dd0e0f_1600x.jpg);
+}
+.sc419>.sc4111{
+    background-image:linear-gradient(rgba(177, 175, 175, 0.473),rgba(177, 175, 175, 0.473)), url(Liha-Idan-Oil-cold-pressed-coconut-oil_1600x.jpg);
+}
+.sc4110{
+    background-image: url(british-made-recycled-wool-throw-made-in-wales_1600x.jpg);
+}
+.sc4110>.sc4111{
+    background-image:linear-gradient(rgba(177, 175, 175, 0.473),rgba(177, 175, 175, 0.473)), url(british-made-recycled-wool-throw-made-in-wales-2_1600x.jpg);
+}
+.sc4112{
+    background-image: url(ume-traditional-ajanta-natural-incense-made-by-hand_1600x.jpg);
+}
+.sc4112>.sc4111{
+    background-image:linear-gradient(rgba(177, 175, 175, 0.473),rgba(177, 175, 175, 0.473)), url(stoneware-incense-dish-ceramics-handmade-in-the-uk-2_089127df-1c2d-40fd-8a28-0a1fbdeb8bb8_1600x.jpg);
+}
+.sc4113{
+    background-image: url(ume-traditional-paomashan-natural-incense-made-by-hand_1600x.jpg);
+}
+.sc4113>.sc4111{
+    background-image:linear-gradient(rgba(177, 175, 175, 0.473),rgba(177, 175, 175, 0.473)), url(stoneware-incense-dish-ceramics-handmade-in-the-uk_89d18156-5834-4e2c-ab8d-b37842ccf06c_1600x.jpg);
+}
+
+/* -------------sc6---------------- */
+
+.sc6{
+    width: 100vw;
+    height: auto;
+    border: 1px solid green;
+    padding-top:40px;
+    padding-bottom:40px ;
+    display: flex;
+    box-sizing: border-box;
+
+}
+.sc61{
+    width: 50%;
+    height: 450px;
+    /* border: 1px solid red; */
+    background-image: url(emporium__iwto-02_1600x.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sc612{
+    width: 95%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.938);
+    /* padding-top: 30px; */
+    padding-bottom: 30px;
+    text-align: center;
+    /* padding: 1px; */
+
+}
+.sc612>h1{
+    margin-top: 30px;
+    cursor: pointer;
+    letter-spacing: 2px;
+
+}
+.sc612>h1:hover{
+    color:rgb(160,47,106) ;
+}
+.sc612>p{
+    line-height: 3;
+    letter-spacing: 2px;
+    cursor: pointer;
+
+}
+.sc612>p:hover{
+    color: rgb(160,47,106);
+}
+
+.sc62{
+    width: 50%;
+    height: 450px;
+    /* border: 1px solid red; */
+    background-image: url(emporium__iwto-03_1600x.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* -----------sc7-------- */
+.sc7{
+    width: 100vw;
+    height: auto;
+    /* border: 1px solid deeppink; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.sc71{
+    width: 40%;
+    height: 550px;
+    /* border: 1px solid red; */
+    overflow: hidden;
+
+}
+.sc711{
+    width: 250%;
+    height: 80%;
+    /* border: 1px solid green; */
+    display: flex;
+    margin-left: 20px;
+    justify-content: space-evenly;
+    margin-top: 10%;
+    /* margin-left: 30px; */
+    animation: sc7 12s linear infinite;
+}
+@keyframes sc7{
+    0%{
+        margin-left: 30px;
+    }
+    10%{
+        margin-left: 30px;
+    }
+    20%{
+        margin-left: 30px;
+    }
+    30%{
+        margin-left: 30px;
+    }
+    40%{
+        margin-left: 30px;
+    }
+    41%{
+        margin-left: -72%;
+    }
+
+    50%{
+        margin-left: -72%;
+    }
+    60%{
+        margin-left: -72%;
+    }
+    70%{
+        margin-left:-72%;
+    }
+    80%{
+        margin-left:-72%;
+    }
+    81%{
+        margin-left:-155%;
+    }
+    90%{
+        margin-left: -155%;
+    }
+    99.9%{
+        margin-left: -155%;
+
+    }
+    100%{
+        margin-left: 0;
+    }
+}
+
+.img1{
+    width: 28%;
+    height: 100%;
+}
+.sc72{
+    width: 50%;
+    height: auto;
+    /* border: 1px solid red; */
+}
+.stars{
+    color: gray;
+    margin-left: 5px;
+}
+.sc72p1{
+    display: inline-block;
+    font-size: 13px;
+    color: gray;
+    margin-left: 5px;
+}
+
+.sc72>h1{
+    margin-top: 20px;
+    /* letter-spacing: 2px; */
+    cursor: pointer;
+    /* transition-duration: 1s; */
+}
+.sc72>h1:hover{
+    color: rgb(85,8,49);
+}
+.sc72p2{
+    color: gray;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+.sc72p3{
+    color: gray;
+    margin-top: 30px;
+    line-height:2;
+    letter-spacing: 2px;
+}
+.sc72p4{
+    margin-top: 30px;
+    color: gray;
+}
+.sc72ul{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.sc72ul>li{
+    color: gray;
+    line-height: 2;
+}
+
+.sc72p5{
+    margin-top: 20px;
+}
+.span1{
+    color: rgb(145, 3, 79) ;
+}
+.btn1{
+    width: 160px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-left: 230px;
+    margin-top: 20px;
+    transition-duration: 1s;
+    transition-property: background-color;
+}
+.btn1:hover{
+    background-color:rgb(145, 3, 79) ;
+}
+/* ---------------------sc8------------ */
+.sc8{
+    width: 100vw;
+    height: auto;
+    /* border: 1px solid red; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sc81{
+    width: 28%;
+    height: auto;
+    /* border: 1px solid red; */
+    margin-top: 15%;
+    cursor: pointer;
+
+}
+.sc81>h2{
+    margin-top:10px;
+}
+.sc81>p{
+    letter-spacing: 2px;
+    line-height: 2;
+    margin-top: 20px;
+}
+.sc82{
+    width: 35%;
+    height: 650px;
+    /* border: 1px solid red; */
+    overflow: hidden;
+}
+.sc82i{
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    transition-duration: 1.3s;
+
+
+}
+.sc82:hover .sc82i{
+    transform: scale(1.2);
+}
+.sc83{
+    width: 28%;
+    height: auto;
+    /* border: 1px solid red; */
+    margin-top: 15%;
+    cursor: pointer;
+}
+.sc83>h2{
+    margin-top:10px;
+
+}
+.sc83>p{
+    letter-spacing: 2px;
+    line-height: 2;
+    margin-top: 20px;
+}
+.sc9t{
+    width: 100vw;
+    height: auto;
+    /* border: 1px solid red; */
+    padding-bottom: 30px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.sc9t1>h1{
+    color:rgb(111,11,64);
+}
+.sc9t2{
+    width: 70px;
+    border: 1px solid rgb(111,11,64);
+    margin-top: 30px;
+}
+
+
+
+
+.sc911{
+    background-image: url(wb-waterproof-wool-picnic-blanket-grey-made-in-wales_1600x.jpg);
+}
+.sc911>.sc4111{
+    background-image:linear-gradient(rgba(177, 175, 175, 0.473),rgba(177, 175, 175, 0.473)), url(waterproof-wool-picnic-blanket-grey-made-in-wales_1600x.jpg);
+}
+.sc912{
+    background-image: url(eco-wool-cabin-blanket-klippan_1600x.jpg);
+}
+.sc912>.sc4111{
+    background-image:linear-gradient(rgba(177, 175, 175, 0.473),rgba(177, 175, 175, 0.473)), url(eco-wool-cabin-blanket-klippan-1_1600x.jpg);
+}
+.sc913{
+    background-image: url(british-made-merino-wool-throw-rose-b-brown-saffron-yellow_6b64f660-92f1-42a4-b3c0-222a3b7b711b_1600x.jpg);
+}
+.sc913>.sc4111{
+    background-image:linear-gradient(rgba(177, 175, 175, 0.473),rgba(177, 175, 175, 0.473)), url(all-british-made-merino-wool-throw-and-cushion-rose-b-brown-8_1600x.jpg);
+}
+.sc914{
+    background-image: url(cygnet-grey-eco-lambswool-swedish-throw_1600x.jpg);
+}
+.sc914>.sc4111{
+    background-image:linear-gradient(rgba(177, 175, 175, 0.473),rgba(177, 175, 175, 0.473)), url(pump-street-bakery-artisan-chocolate_1f4af139-4356-4533-8fdd-8cf45485d35d_1600x.jpg);
+}
+.sc915{
+    background-image: url(juniper-eco-lambswool-swedish-throws-wb-1_1600x.jpg);
+}
+.sc915>.sc4111{
+    background-image:linear-gradient(rgba(177, 175, 175, 0.473),rgba(177, 175, 175, 0.473)), url(juniper-eco-lambswool-swedish-throws-2_1600x.jpg);
+}
+.sc916{
+    background-image: url(gotland-wool-swedish-throw-grey-1_1600x.jpg);
+}
+.sc916>.sc4111{
+    background-image:linear-gradient(rgba(177, 175, 175, 0.473),rgba(177, 175, 175, 0.473)), url(gotland-wool-swedish-throw-grey_1600x.jpg);
+}
+.sc917{
+    background-image: url(nordic-eco-lambswool-swedish-blankets-wb1_1600x.jpg);
+}
+.sc917>.sc4111{
+    background-image:linear-gradient(rgba(177, 175, 175, 0.473),rgba(177, 175, 175, 0.473)), url(nordic-eco-lambswool-swedish-blankets_1600x.jpg);
+}
+
+.sc915{
+    background-image: url(juniper-eco-lambswool-swedish-throws-wb-1_1600x.jpg);
+}
+.sc915>.sc4111{
+    background-image:linear-gradient(rgba(177, 175, 175, 0.473),rgba(177, 175, 175, 0.473)), url(juniper-eco-lambswool-swedish-throws-2_1600x.jpg);
+}
+.sc919{
+    background-image: url(blue-triangles-lapuan-kankurit_triano_blanket_1600x.jpg);
+}
+.sc919>.sc4111{
+    background-image:linear-gradient(rgba(177, 175, 175, 0.473),rgba(177, 175, 175, 0.473)), url(black-triangles-linen-blanket-4_1600x.jpg);
+}
+.sc9110{
+    background-image: url(black-triangles-lapuan-kankurit_triano_blanket_1600x.jpg);
+}
+.sc9110>.sc4111{
+    background-image:linear-gradient(rgba(177, 175, 175, 0.473),rgba(177, 175, 175, 0.473)), url(black-triangles-linen-blanket-1_1600x.jpg);
+}
+.sc9112{
+    background-image: url(eco-wool-perfect-grey-blanket-klippan_1600x.jpg);
+}
+.sc9112>.sc4111{
+    background-image:linear-gradient(rgba(177, 175, 175, 0.473),rgba(177, 175, 175, 0.473)), url(eco-wool-perfect-grey-blanket-klippan-1_1600x.jpg);
+}
+.sc9113{
+    background-image: url(eco-wool-cabin-blanket-klippan_1600x.jpg);
+}
+.sc4113>.sc4111{
+    background-image:linear-gradient(rgba(177, 175, 175, 0.473),rgba(177, 175, 175, 0.473)), url(eco-wool-cabin-blanket-klippan-1_1600x.jpg);
+}
+/* ------------submit------------- */
+.scsubmit{
+    width: 100%;
+    height: auto;
+    background-image: url(emporium__gallery-02_1600x.jpg);
+    background-size: 100% 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+
+}
+.scsubmit1>h1{
+    color: white;
+}
+.scsubmit1>p{
+    color: white;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+.subinput{
+    width: 400px;
+    height: 30px;
+    border: none;
+    padding-left: 5px;
+    margin-top: 30px;
+}
+.btn2{
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    border: none;
+    color: white;
+}
+.btn2:hover{
+    background-color:rgb(111,11,64) ;
+}
+.scndlast{
+    width: 100vw;
+    height: auto;
+    /* border: 1px solid red; */
+    padding-bottom: 30px;
+}
+.scndlast2{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-around;
+}
+.scndimg{
+    width: 16%;
+    height: 200px;
+}
+.hr2{
+    background-color:rgb(111,11,64) ;
+    height: 2px;
+}
+.p10{
+    margin-top: 10px;
+    font-size: 14px;
+}
+.span2{
+    color:rgb(111,11,64) ;
+}
+
+
+
+
+
+

@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    
+}
+
+
+
+@media screen and (min-width:375px) and (max-width:425px){
+    .main1{
+        width: 100vw;
+        height: auto;
+        /* border: 1px solid red; */
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-around;
+        
+    
+        
+    }  
+    .logodiv{
+        width: 60%;
+        
+    }
+    .inputdiv{
+        width: 25%;
+        box-sizing: border-box;
+        padding-top: 0;
+
+    }
+    .input1{
+        display: none;
+    }
+    .iconsdiv{
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 20px;
+        height: 50px;
+        order: -1;
+        display: none;
+
+    }
+    
+    .nav{
+        display: none;
+        height: auto;
+        margin-left: -165px;
+        border: none;
+    }
+    .nav>ul>li{
+        float: none;
+        width: 100%;
+        border: none;
+    }
+    .nav>ul>li:hover{
+        color: orangered;
+    }
+    
+    hr{
+        width: 30px;
+        height: 3px;
+        padding: 4px;
+        box-sizing: border-box;
+        
+    }
+    .search1{
+        width: 100%;
+        margin-left: -0px;
+        padding: 5px;
+        
+
+
+    }
+    .label1{
+        width: 40px;
+        height: 39px;
+        padding: 3px;
+        box-sizing: border-box;
+        margin-top: 20px;
+    }
+    .radio1:checked~.nav{
+        display: block;
+        
+    }
+    .radio1{
+        display: none;
+    }
+/* ---------------sc2-------------- */
+.sc32{
+    /* flex-wrap: wrap; */
+    width: 370%;
+}
+.input4:checked~.sc32{
+    margin-left: -85%;
+}
+.sc321{
+    width: 40%;
+    /* margin-left: 20px; */
+}
+.sc411:hover .sc4111{
+    transform: scale(0);
+    visibility: hidden;
+    /* transition-duration: 1s; */
+
+}
+.sc411{
+    height: 100px;
+}
+.sc41{
+    height: 120px;
+}
+.sc5t{
+    /* margin-left: -100px; */
+}
+.sc6{
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.sc61{
+    width: 100%;
+}
+.sc62{
+    width: 100%;
+}
+ .sc4t2{
+    margin-left: 10px;
+    width: 70px;
+}
+.sc4t3{
+    margin-left: 50px;
+    width: 90px;
+}  
+.sc4t1>h1{
+    margin-left: -20px;
+}
+.garden{
+    margin-left: -100px;
+}
+.sc7{
+    flex-wrap: wrap;
+}
+.sc72{
+    width: 100%;
+}
+.sc71{
+    width: 100%;
+}
+.sc8{
+    flex-wrap: wrap;
+}
+.sc81{
+    width: 100%;
+}
+.sc82{
+    width: 100%;
+}
+.sc83{
+    width: 100%;
+}
+.sc9t1>h1{
+    font-size: 23px;
+}
+.sc72>h1{
+    font-size: 22px;
+}
+.btn2{
+    margin-top: 30px;
+}
+.scndimg{
+    width: 50%;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

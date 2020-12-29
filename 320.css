@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    
+}
+
+
+
+@media screen and (max-width:320px){
+    .main1{
+        width: 100vw;
+        height: auto;
+        /* border: 1px solid red; */
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        
+    
+        
+    } 
+    body{
+        width: 100vw;
+        /* background-color: black; */
+    } 
+    .logodiv{
+        width: 60%;
+        
+    }
+    .inputdiv{
+        width: 25%;
+        box-sizing: border-box;
+        padding-top: 0;
+
+    }
+    .input1{
+        display: none;
+    }
+    .iconsdiv{
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 20px;
+        height: 50px;
+        order: -1;
+        display: none;
+
+    }
+    
+    .nav{
+        display: none;
+        height: auto;
+        margin-left: -165px;
+        border: none;
+    }
+    .nav>ul>li{
+        float: none;
+        width: 100%;
+        border: none;
+    }
+    .nav>ul>li:hover{
+        color: orangered;
+    }
+    
+    hr{
+        width: 30px;
+        height: 3px;
+        padding: 4px;
+        box-sizing: border-box;
+        
+    }
+    .search1{
+        width: 100%;
+        margin-left: -0px;
+        padding: 5px;
+        
+
+
+    }
+    .label1{
+        width: 40px;
+        height: 39px;
+        padding: 3px;
+        box-sizing: border-box;
+        margin-top: 20px;
+    }
+    .radio1:checked~.nav{
+        display: block;
+        
+    }
+    .radio1{
+        display: none;
+    }
+/* ---------------sc2-------------- */
+.sc321{
+    width: 40%;
+}
+.btn1{
+    margin-left: 100px;
+}
+.sc9t1>h1{
+    font-size: 20px;
+}
+.subinput{
+    width: 300px;
+}
+.scndlast2{
+    flex-wrap: wrap;
+}
+.scndimg{
+    width: 100%;
+}
+
+
+}
+
+
